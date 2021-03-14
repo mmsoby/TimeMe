@@ -12,14 +12,14 @@ After set up, you do absolutely nothing to maintain this program. It will manage
 2. Store it somewhere safe, a place with directories you won't mess around with too much
 3. Open up a terminal, and navigate to the location of the script
 4. Run the following commands to give the files access to change the files in their directory. (These won't ever change files from other directories)
-1.  `chmod +x TimeMe.scpt` 
-2. `chmod +x TimeMe.sh`  
-3.  `chmod +x TimeMe`
+i.  `chmod +x TimeMe.scpt` 
+ii. `chmod +x TimeMe.sh`  
+iii.  `chmod +x TimeMe`
 5. Open up any Xcode project
-1. Click `Xcode > Behaviors > Edit Behaviors...`
-2. Click on the first selection in the left panel `Starts`, under the build section
-3. Scroll to the bottom of the right panel and select run, then select choose script
-4. Navigate to the `TimeMe.scpt` script and select it.
+i. Click `Xcode > Behaviors > Edit Behaviors...`
+ii. Click on the first selection in the left panel `Starts`, under the build section
+iii. Scroll to the bottom of the right panel and select run, then select choose script
+iv. Navigate to the `TimeMe.scpt` script and select it.
 
 ## That's all
 Now anytime you want to see how long you spent on a project just open up `report.csv` and the information will be there.
