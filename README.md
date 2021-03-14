@@ -1,6 +1,6 @@
 # TimeMe for Xcode C++
 ## I don't know why this isn't built into Xcode
-Xcode is a very sophisticated IDE, yet for some reason they don't have a feature that measures how long you spend on a program. I like Xcode too much to leave it, so I decided to write a custom behavior that checks how long you spent on a project every time you build it.
+Xcode is a very sophisticated IDE, yet for some reason they don't have a feature that measures how long you spend on a program. I like Xcode too much to leave it, so I decided to write a custom behavior that checks how long you spent on a project every time you build it. There is an app called wakatime that does this, but it requires too many file permissions that most people would not feel comfortable with. It also backs up all the information to wakatimes database, which is again uncomfortable to deal with. This is a light, user friendly solution to a simple problem.
 
 ## How it works
 After set up, you do absolutely nothing to maintain this program. It will manage itself. To see how much time you spent on any one project all you need to do is open up `report.csv`
